@@ -1,6 +1,4 @@
 import "./Card.css";
-import linea from "./src/assets/pattern-divider-desktop.svg";
-import icono from "./src/assets/icon-dice.svg";
 function Card(props) {
   return (
     <>
@@ -15,11 +13,11 @@ function Card(props) {
             </div>
 
             <div id="lineas">
-              <img src={linea} alt="" />
+              <img src={props.fnlinea} alt=".." />
             </div>
           </div>
           <div id="redondo">
-            <img src={icono} alt="" />
+            <img src={props.fnicono} alt=".." />
           </div>
         </div>
       </div>
