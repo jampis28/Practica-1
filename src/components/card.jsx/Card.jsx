@@ -6,7 +6,7 @@ function Card(props) {
         <div className="Card">
           <div id="inf">
             <div id="contid">
-              <p>ADVICE #{props.id}</p>
+              <p>ADVICES #{props.id}</p>
             </div>
             <div id="titulo">
               <p>"{props.titulo}"</p>
